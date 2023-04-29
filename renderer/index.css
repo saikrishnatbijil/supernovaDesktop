@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Jost';
+}
+
+.bckImg {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./assets/house_day_black.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    color: lightgray;
+    text-align: center;
+    margin-top: 2%;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.reloadTxt {
+    font-weight: 200;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    background-color: #D9D9D909;
+    border-radius: 5px;
+    margin-top: 5px;
+    border-style: none;
+    padding: 5px;
+    transition-duration: 0.5s;
+}
+
+.reloadTxt:hover {
+    opacity: 0.7;
+    scale: 1.1;
+}
+
+.body {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.degreeTxt {
+    color: white;
+    font-weight: 200;
+    font-size: 70px;
+}
+
+.nameTxt {
+    color: lightgrey;
+    font-weight: 200;
+    font-size: 14px;
+    margin-top: 2%;
+}
+
+.detailsBody {
+    width: 80%;
+    height: 100%;
+    background-color: #D9D9D909;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.detailsCon {
+    width: 100%;
+    min-height: 18%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.details {
+    width: 25%;
+    height: 100%;
+    background-color: #D9D9D909;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    font-family: "Jost";
+}
+
+.detailsMainTxt {
+    color: white;
+    font-size: 8px;
+    font-weight: 100;
+}
+
+.detailsTxt {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.material-symbols-outlined {
+    color: white;
+}
+
+.input {
+    border: none;
+    background-color: #D9D9D909;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.cityForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
